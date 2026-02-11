@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Laboratorio de Software — Cronograma 2026</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar__inner">
+      <div>
+        <h1>Laboratorio de Software</h1>
+        <p class="subtitle">Cronograma 2026 — Plan de clases</p>
+      </div>
+
+      <div class="tools">
+        <input id="q" class="search" type="search" placeholder="Filtrar por tema, módulo o semana…" />
+        <button id="reload" class="btn" type="button" title="Volver a cargar base.json">Recargar</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="info" id="info">
+      <p>
+        <code>Cursada - Comisión 2026</code>.
+      </p>
+    </section>
+
+    <section class="grid" id="grid" aria-live="polite"></section>
+
+    <section class="footer">
+      <small>Docente: <code>Alvarez Leandro</code>.</small>
+    </section>
+  </main>
+
+  <script src="./app.js"></script>
+</body>
+</html>

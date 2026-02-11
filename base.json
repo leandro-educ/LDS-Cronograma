@@ -1,0 +1,114 @@
+[
+  {
+    "semana": 1,
+    "fecha": "2026-03-12",
+    "modulo": "M1 · Base + herramientas",
+    "tipo": "Teórico–Práctica",
+    "tema_secuencia": "Presentación de la asignatura · Repaso ciclo de vida del software · Scrum (ágil) vs Canvas (tradicional) · Mini-intro a Patrones de Diseño: qué problema resuelven, categorías, cuándo NO usarlos · Comunicar diseño: UML (diagramas de clase) + criterios de lectura"
+  },
+  {
+    "semana": 2,
+    "fecha": "2026-03-19",
+    "modulo": "M1 · Repaso POO",
+    "tipo": "Teórico–Práctica",
+    "tema_secuencia": "Repaso POO: Polimorfismo · Herencia · Colecciones · Atributos · Variables de clase (static) · Interfaces · Abstracción · Constructores · Modificadores · Inmutabilidad (final / no reasignables) · Concepto de proyecto Java/Maven · Transmitir ideas: DER básico para el dominio"
+  },
+  {
+    "semana": 3,
+    "fecha": "2026-03-26",
+    "modulo": "M2 · Calidad y tests",
+    "tipo": "Teórico–Práctica",
+    "tema_secuencia": "Introducción a testing: unit tests · TDD · GWT (Given-When-Then) · AAA (Arrange-Act-Assert) · Coverage y lectura de reportes · Maven (Surefire) · Repaso BD: conexión (JDBC) y discusión: Singleton interno vs gestión externa de dependencias"
+  },
+  {
+    "semana": 4,
+    "fecha": "2026-04-02",
+    "modulo": "M3 · Patrones (comportamiento)",
+    "tipo": "Asincrónica / Feriado",
+    "tema_secuencia": "SOLID (visión práctica) + refactor guiado sobre el dominio · Patrón de dominio (Domain Model) como eje · Patrones de comportamiento: Strategy · Template Method · (y uso crítico de Singleton cuando corresponde)"
+  },
+  {
+    "semana": 5,
+    "fecha": "2026-04-09",
+    "modulo": "M4 · Patrones (estructurales) + Spring",
+    "tipo": "Teórico–Práctica",
+    "tema_secuencia": "Estructuras recursivas en objetos · Patrón estructural: Composite · Aplicación de múltiples patrones en un diseño (criterios) · Introducción a Spring Boot (arranque, controllers simples)"
+  },
+  {
+    "semana": 6,
+    "fecha": "2026-04-16",
+    "modulo": "M4 · Arquitectura en capas",
+    "tipo": "Teórico–Práctica",
+    "tema_secuencia": "Patrón estructural: Decorator (casos reales) · Arquitectura en capas: Controller/Service/Repository + DTOs · Patrón de comportamiento: Command (operaciones encapsuladas) aplicado a la capa Service"
+  },
+  {
+    "semana": 7,
+    "fecha": "2026-04-23",
+    "modulo": "M5 · Integración (pre-parcial 1)",
+    "tipo": "Teórico–Práctica",
+    "tema_secuencia": "Consolidación: combinar patrones en un mismo diseño · Patrón creacional (apoyo): Builder (para objetos complejos) · Preparación del primer parcial (criterios y checklist)"
+  },
+  {
+    "semana": 8,
+    "fecha": "2026-04-30",
+    "modulo": "Hito 1",
+    "tipo": "Evaluación",
+    "tema_secuencia": "Evaluación Primer Parcial: diseño + código + tests + documentación mínima (entrega en GitHub)"
+  },
+  {
+    "semana": 9,
+    "fecha": "2026-05-07",
+    "modulo": "M6 · Robustez",
+    "tipo": "Teórico–Práctica",
+    "tema_secuencia": "Excepciones: Checked vs Unchecked · Excepciones de negocio · Manejo centralizado en Spring (@ControllerAdvice) · Reestructurar a MVC/DTOs · Validaciones"
+  },
+  {
+    "semana": 10,
+    "fecha": "2026-05-14",
+    "modulo": "M7 · Patrones + Arquitectura",
+    "tipo": "Teórico–Práctica",
+    "tema_secuencia": "Patrones de comportamiento: Command (profundización) · Observer (introducción) · Refactor con Builder donde aporte valor · Contraste explícito: Monolito modular vs Microservicios (criterios, riesgos, costos)"
+  },
+  {
+    "semana": 11,
+    "fecha": "2026-05-21",
+    "modulo": "M8 · Eventos y mensajería",
+    "tipo": "Teórico–Práctica",
+    "tema_secuencia": "Patrón de comportamiento: Observer (profundización) · Eventos y mensajería: RabbitMQ (conceptos) · Pub/Sub · colas · ack · Spring AMQP: producer/consumer básico"
+  },
+  {
+    "semana": 12,
+    "fecha": "2026-05-28",
+    "modulo": "M9 · Microservicios con RabbitMQ",
+    "tipo": "Teórico–Práctica",
+    "tema_secuencia": "Microservicios + RabbitMQ (implementación) · Contratos de mensajes (JSON) · Idempotencia básica · Reintentos · DB por servicio + consistencia eventual (conceptual)"
+  },
+  {
+    "semana": 13,
+    "fecha": "2026-06-04",
+    "modulo": "Hito 2",
+    "tipo": "Evaluación",
+    "tema_secuencia": "Evaluación Segundo Parcial: integración distribuida + mensajería + criterios de arquitectura (entrega en GitHub)"
+  },
+  {
+    "semana": 14,
+    "fecha": "2026-06-11",
+    "modulo": "M10 · Repaso + Recuperatorio",
+    "tipo": "Teórico–Práctica",
+    "tema_secuencia": "Repaso guiado: DB por servicio · consistencia eventual (intro) · sagas (concepto) · Corrección de errores frecuentes · Preparación recuperatorio"
+  },
+  {
+    "semana": 15,
+    "fecha": "2026-06-18",
+    "modulo": "Hito 3",
+    "tipo": "Recuperatorio",
+    "tema_secuencia": "Recuperatorio: primer, segundo o ambos parciales (según caso)"
+  },
+  {
+    "semana": 16,
+    "fecha": "2026-06-25",
+    "modulo": "Cierre",
+    "tipo": "Cierre",
+    "tema_secuencia": "Cierre de notas y devoluciones finales · Retrospectiva · Próximos pasos"
+  }
+]
